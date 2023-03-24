@@ -1,0 +1,213 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+   min=height: 100%;
+    background-color: black;
+    padding: 2vmax 3vmax;
+}
+nav{
+    width: 100%;
+    height: 10vh    ;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+}
+nav > h1{
+    font: 900 2.5vmax bold;
+
+}
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: 200;
+    font: 200 1vmax bolder;
+}
+nav > ul > li{
+    padding: 0 1vmax;
+}
+button{
+    font: 200 1vmax bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav > span {
+    font-family: 'Open Sans', sans-serif;
+    /* font: 300 1vmax "sans-serif"; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+}
+nav > span > i{
+   font-size: 1.5vmax;
+}
+.section1{
+    height: 100%;
+    width: 100%;
+    margin-top: 5vmax;
+    display: flex;
+}
+.right-section1 , .left-section1{
+    width: 50%;
+    height: 50%;
+
+}
+.left-section1> h1{
+    font: 400 5vmax "sans-serif";
+    color: white;
+    padding: 0 2vmax;
+}
+.box1{
+    
+    color: white;
+    display: flex;
+    font: 200 1vmax  "sans-serif";
+    justify-content: space-between;
+    margin-top: 2vmax;
+
+}
+.left-section1  img {
+    height: 5vmax;
+    width: 9vmax;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+.right-section1{
+    width: 50%;
+    height: 50vh;
+    padding: 0 3vmax;
+    border-radius: 1vmax;
+    background-color: #b3a0cf;
+    clip-path: polygon(79% 0, 80% 12%, 100% 13%, 100% 100%, 0 99%, 0% 60%, 0 0);
+    background-image: url(logan-weaver-lgnwvr-Gi1rDqy9R40-unsplash-removebg-preview\(1\).png);
+    background-repeat: no-repeat;
+background-position: center;
+position: relative;
+background-size: contain;
+}
+.section2{
+    width: 100%;
+    height: 40vh;
+    /* background-color: pink; */
+    display: flex;
+    margin-top: 7%;
+    margin-left: 2%;
+
+}
+.s2-left{
+    width: 25%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.s2-right{
+    width: 75%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 2%;
+
+
+}
+/* -------------------------------------------------------- */
+
+.s2lip{
+    display: flex;
+
+}
+.s2lip>p{
+    font: 300 1vmax "Gilroy";
+    margin: 1vmax;
+}
+.s2lip>i{
+    font-size: 3vmax;
+}
+.s2-left> .button1{
+    margin-top: 5vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.button1 > button{
+font: 200 1.2vmax "Gilroy";
+    border-radius: 2vmax;
+  border-width: 5vmax;
+    border: 1px solid white;
+    /* padding: 1vmax 1vmax  1 vmax ; */
+    margin: .2vmax;
+color: white;
+background-color: transparent;
+}
+.s2-right >.s2rbox{
+    width: 33%;
+    height: 90%;
+    clip-path: polygon(57% 4%, 65% 0, 100% 0, 100% 99%, 0 100%, 0 4%);
+border-radius: 1vmax;
+margin: 0vmax;
+
+  
+}
+.s2-right>.s2rbox1{
+    background-color: rgba(253,94,9,255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.s2-right>.s2rbox2{
+    background-color:rgba(224,224,224,255);
+
+}
+.s2-right>.s2rbox3{
+    background-color: rgba(253,201,89,255);
+
+}
+.s2-right>.s2rbox1>p{
+    margin-left: 7%;
+    font: 600 1vmax "Gilroy";
+    margin-top: 15%;
+}
+.s2-right>.s2rbox1>i{
+    font-size: 4vmax;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+.s2rbox2{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.s2-right>.s2rbox2>.circles > span{
+    display: inline-block;
+    height: 1vmax;
+    width: 1vmax;
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin-top: 3vmax;
+margin-right: 0.1vmax;
+   
+}
+.s2rbox2>i{
+    font-size: 4vmax;
+    margin-top: 2vmax;
+
+}
